@@ -18,6 +18,7 @@ const Login = () => {
     <div className=' flex items-center bg-[#efefef]   h-screen w-screen justify-center'>
        
         <div className='border-2 rounded-lg shadow-lg  py-6 w-96 h-96 bg-white p-2'>
+            <h1 className='font-bold text-2xl pb-4 text-center shadow-sm'>Login Page</h1>
             <form className=' flex flex-col '
              onSubmit = {(e) =>{
                 submithandler(e)
