@@ -4,12 +4,12 @@ import Headers from '../others/Headers';
 import AllTask from '../others/AllTask';
 
 
-const AdminDashboard = () => {
+const AdminDashboard = (props) => {
     // document.body.style.backgroundColor="#0004"
   return (
     <>
     <div className='p-11 h-full w-full  '>
-    <Headers />
+    <Headers changeUser={props.changeUser} />
    <CreateTask />
    <AllTask />
    </div>
